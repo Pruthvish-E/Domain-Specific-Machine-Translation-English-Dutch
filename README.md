@@ -18,6 +18,7 @@ The goal is to demonstrate **end-to-end MT engineering competence**, including d
 ## 📂 Repository Structure
 
 challenge_1_mt/
+
 │
 ├── data/
 │ ├── raw/
@@ -215,4 +216,5 @@ report.md
 
 
  
+
 
