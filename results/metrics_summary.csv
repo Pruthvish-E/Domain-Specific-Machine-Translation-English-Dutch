@@ -1,0 +1,5 @@
+domain,bleu,chrf,avg_len_ratio,model
+software,30.3,63.012,1.013,EncDec-Baseline
+flores,25.01,56.895,0.977,EncDec-Baseline
+software,27.78,59.835,0.985,EncDec-Finetuned
+flores,23.53,55.259,0.976,EncDec-Finetuned
