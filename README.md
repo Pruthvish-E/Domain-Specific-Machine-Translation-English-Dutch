@@ -20,38 +20,71 @@ The goal is to demonstrate **end-to-end MT engineering competence**, including d
 challenge_1_mt/
 
 │
+
 ├── data/
+
 │ ├── raw/
+
 │ │ ├── flores200_dataset/
+
 │ │ └── Dataset_Challenge_1.xlsx
+
 │ └── processed/
+
 │ ├── flores_en_nl/
+
 │ ├── software_mt/
+
 │ └── software_instruct/
+
 │
+
 ├── training/
+
 │ ├── encdec_train.py
+
 │ ├── build_instruction_dataset.py
+
 │ └── deconly_lora_train.py
+
 │
+
 ├── evaluation/
+
 │ ├── utils.py
+
 │ ├── run_encdec_baseline.py
+
 | ├── run_encdec_finetuned.py
+
 | ├── run_decoder_only_LoRA_finetuned.py
+
 │ ├── run_decoder_only_baseline.py
+
 │ └── aggregate_and_visualize.py
+
 │
+
 ├── results/
+
 │ ├── *_predictions.csv
+
 │ ├── *_metrics.csv
+
 │ ├── metrics_summary.csv
+
 │ ├── bleu_comparison.png
+
 │ ├── chrf_comparison.png
+
 │ └── domain_shift.png
+
 │
+
 ├── report.md
+
 └── README.md
+
 
 
 ---
@@ -216,5 +249,6 @@ report.md
 
 
  
+
 
 
